@@ -128,77 +128,77 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
-list.obj: list.c.obj
-.PHONY : list.obj
+practice13/list.obj: practice13/list.c.obj
+.PHONY : practice13/list.obj
 
 # target to build an object file
-list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/list.c.obj
-.PHONY : list.c.obj
+practice13/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/list.c.obj
+.PHONY : practice13/list.c.obj
 
-list.i: list.c.i
-.PHONY : list.i
+practice13/list.i: practice13/list.c.i
+.PHONY : practice13/list.i
 
 # target to preprocess a source file
-list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/list.c.i
-.PHONY : list.c.i
+practice13/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/list.c.i
+.PHONY : practice13/list.c.i
 
-list.s: list.c.s
-.PHONY : list.s
+practice13/list.s: practice13/list.c.s
+.PHONY : practice13/list.s
 
 # target to generate assembly for a file
-list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/list.c.s
-.PHONY : list.c.s
+practice13/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/list.c.s
+.PHONY : practice13/list.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+practice13/main.obj: practice13/main.c.obj
+.PHONY : practice13/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.obj
-.PHONY : main.c.obj
+practice13/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/main.c.obj
+.PHONY : practice13/main.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+practice13/main.i: practice13/main.c.i
+.PHONY : practice13/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.i
-.PHONY : main.c.i
+practice13/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/main.c.i
+.PHONY : practice13/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+practice13/main.s: practice13/main.c.s
+.PHONY : practice13/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.s
-.PHONY : main.c.s
+practice13/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/main.c.s
+.PHONY : practice13/main.c.s
 
-stud.obj: stud.c.obj
-.PHONY : stud.obj
+practice13/stud.obj: practice13/stud.c.obj
+.PHONY : practice13/stud.obj
 
 # target to build an object file
-stud.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/stud.c.obj
-.PHONY : stud.c.obj
+practice13/stud.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/stud.c.obj
+.PHONY : practice13/stud.c.obj
 
-stud.i: stud.c.i
-.PHONY : stud.i
+practice13/stud.i: practice13/stud.c.i
+.PHONY : practice13/stud.i
 
 # target to preprocess a source file
-stud.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/stud.c.i
-.PHONY : stud.c.i
+practice13/stud.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/stud.c.i
+.PHONY : practice13/stud.c.i
 
-stud.s: stud.c.s
-.PHONY : stud.s
+practice13/stud.s: practice13/stud.c.s
+.PHONY : practice13/stud.s
 
 # target to generate assembly for a file
-stud.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/stud.c.s
-.PHONY : stud.c.s
+practice13/stud.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/practice13/stud.c.s
+.PHONY : practice13/stud.c.s
 
 # Help Target
 help:
@@ -209,15 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled1
-	@echo ... list.obj
-	@echo ... list.i
-	@echo ... list.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... stud.obj
-	@echo ... stud.i
-	@echo ... stud.s
+	@echo ... practice13/list.obj
+	@echo ... practice13/list.i
+	@echo ... practice13/list.s
+	@echo ... practice13/main.obj
+	@echo ... practice13/main.i
+	@echo ... practice13/main.s
+	@echo ... practice13/stud.obj
+	@echo ... practice13/stud.i
+	@echo ... practice13/stud.s
 .PHONY : help
 
 

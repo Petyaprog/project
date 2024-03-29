@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/tsiga/CLionProjects/project/list.c" "CMakeFiles/untitled1.dir/list.c.obj" "gcc" "CMakeFiles/untitled1.dir/list.c.obj.d"
-  "C:/Users/tsiga/CLionProjects/project/main.c" "CMakeFiles/untitled1.dir/main.c.obj" "gcc" "CMakeFiles/untitled1.dir/main.c.obj.d"
-  "C:/Users/tsiga/CLionProjects/project/stud.c" "CMakeFiles/untitled1.dir/stud.c.obj" "gcc" "CMakeFiles/untitled1.dir/stud.c.obj.d"
+  "C:/Users/tsiga/CLionProjects/project/practice13/list.c" "CMakeFiles/untitled1.dir/practice13/list.c.obj" "gcc" "CMakeFiles/untitled1.dir/practice13/list.c.obj.d"
+  "C:/Users/tsiga/CLionProjects/project/practice13/main.c" "CMakeFiles/untitled1.dir/practice13/main.c.obj" "gcc" "CMakeFiles/untitled1.dir/practice13/main.c.obj.d"
+  "C:/Users/tsiga/CLionProjects/project/practice13/stud.c" "CMakeFiles/untitled1.dir/practice13/stud.c.obj" "gcc" "CMakeFiles/untitled1.dir/practice13/stud.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

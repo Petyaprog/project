@@ -84,19 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/tsiga/CLionProjects/project/list.c">
+		<Unit filename="C:/Users/tsiga/CLionProjects/project/practice13/list.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/tsiga/CLionProjects/project/list.h">
+		<Unit filename="C:/Users/tsiga/CLionProjects/project/practice13/list.h">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/tsiga/CLionProjects/project/main.c">
+		<Unit filename="C:/Users/tsiga/CLionProjects/project/practice13/main.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/tsiga/CLionProjects/project/stud.c">
+		<Unit filename="C:/Users/tsiga/CLionProjects/project/practice13/stud.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/tsiga/CLionProjects/project/stud.h">
+		<Unit filename="C:/Users/tsiga/CLionProjects/project/practice13/stud.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/tsiga/CLionProjects/project/CMakeLists.txt">

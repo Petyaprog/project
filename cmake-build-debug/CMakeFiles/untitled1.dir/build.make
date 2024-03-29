@@ -68,60 +68,60 @@ include CMakeFiles/untitled1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled1.dir/flags.make
 
-CMakeFiles/untitled1.dir/main.c.obj: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/main.c.obj: C:/Users/tsiga/CLionProjects/project/main.c
-CMakeFiles/untitled1.dir/main.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tsiga\CLionProjects\project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled1.dir/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/main.c.obj -MF CMakeFiles\untitled1.dir\main.c.obj.d -o CMakeFiles\untitled1.dir\main.c.obj -c C:\Users\tsiga\CLionProjects\project\main.c
+CMakeFiles/untitled1.dir/practice13/main.c.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/practice13/main.c.obj: C:/Users/tsiga/CLionProjects/project/practice13/main.c
+CMakeFiles/untitled1.dir/practice13/main.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tsiga\CLionProjects\project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled1.dir/practice13/main.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/practice13/main.c.obj -MF CMakeFiles\untitled1.dir\practice13\main.c.obj.d -o CMakeFiles\untitled1.dir\practice13\main.c.obj -c C:\Users\tsiga\CLionProjects\project\practice13\main.c
 
-CMakeFiles/untitled1.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled1.dir/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tsiga\CLionProjects\project\main.c > CMakeFiles\untitled1.dir\main.c.i
+CMakeFiles/untitled1.dir/practice13/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled1.dir/practice13/main.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tsiga\CLionProjects\project\practice13\main.c > CMakeFiles\untitled1.dir\practice13\main.c.i
 
-CMakeFiles/untitled1.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled1.dir/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tsiga\CLionProjects\project\main.c -o CMakeFiles\untitled1.dir\main.c.s
+CMakeFiles/untitled1.dir/practice13/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled1.dir/practice13/main.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tsiga\CLionProjects\project\practice13\main.c -o CMakeFiles\untitled1.dir\practice13\main.c.s
 
-CMakeFiles/untitled1.dir/list.c.obj: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/list.c.obj: C:/Users/tsiga/CLionProjects/project/list.c
-CMakeFiles/untitled1.dir/list.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tsiga\CLionProjects\project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled1.dir/list.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/list.c.obj -MF CMakeFiles\untitled1.dir\list.c.obj.d -o CMakeFiles\untitled1.dir\list.c.obj -c C:\Users\tsiga\CLionProjects\project\list.c
+CMakeFiles/untitled1.dir/practice13/list.c.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/practice13/list.c.obj: C:/Users/tsiga/CLionProjects/project/practice13/list.c
+CMakeFiles/untitled1.dir/practice13/list.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tsiga\CLionProjects\project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled1.dir/practice13/list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/practice13/list.c.obj -MF CMakeFiles\untitled1.dir\practice13\list.c.obj.d -o CMakeFiles\untitled1.dir\practice13\list.c.obj -c C:\Users\tsiga\CLionProjects\project\practice13\list.c
 
-CMakeFiles/untitled1.dir/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled1.dir/list.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tsiga\CLionProjects\project\list.c > CMakeFiles\untitled1.dir\list.c.i
+CMakeFiles/untitled1.dir/practice13/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled1.dir/practice13/list.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tsiga\CLionProjects\project\practice13\list.c > CMakeFiles\untitled1.dir\practice13\list.c.i
 
-CMakeFiles/untitled1.dir/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled1.dir/list.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tsiga\CLionProjects\project\list.c -o CMakeFiles\untitled1.dir\list.c.s
+CMakeFiles/untitled1.dir/practice13/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled1.dir/practice13/list.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tsiga\CLionProjects\project\practice13\list.c -o CMakeFiles\untitled1.dir\practice13\list.c.s
 
-CMakeFiles/untitled1.dir/stud.c.obj: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/stud.c.obj: C:/Users/tsiga/CLionProjects/project/stud.c
-CMakeFiles/untitled1.dir/stud.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tsiga\CLionProjects\project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled1.dir/stud.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/stud.c.obj -MF CMakeFiles\untitled1.dir\stud.c.obj.d -o CMakeFiles\untitled1.dir\stud.c.obj -c C:\Users\tsiga\CLionProjects\project\stud.c
+CMakeFiles/untitled1.dir/practice13/stud.c.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/practice13/stud.c.obj: C:/Users/tsiga/CLionProjects/project/practice13/stud.c
+CMakeFiles/untitled1.dir/practice13/stud.c.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tsiga\CLionProjects\project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled1.dir/practice13/stud.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/practice13/stud.c.obj -MF CMakeFiles\untitled1.dir\practice13\stud.c.obj.d -o CMakeFiles\untitled1.dir\practice13\stud.c.obj -c C:\Users\tsiga\CLionProjects\project\practice13\stud.c
 
-CMakeFiles/untitled1.dir/stud.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled1.dir/stud.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tsiga\CLionProjects\project\stud.c > CMakeFiles\untitled1.dir\stud.c.i
+CMakeFiles/untitled1.dir/practice13/stud.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled1.dir/practice13/stud.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tsiga\CLionProjects\project\practice13\stud.c > CMakeFiles\untitled1.dir\practice13\stud.c.i
 
-CMakeFiles/untitled1.dir/stud.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled1.dir/stud.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tsiga\CLionProjects\project\stud.c -o CMakeFiles\untitled1.dir\stud.c.s
+CMakeFiles/untitled1.dir/practice13/stud.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled1.dir/practice13/stud.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tsiga\CLionProjects\project\practice13\stud.c -o CMakeFiles\untitled1.dir\practice13\stud.c.s
 
 # Object files for target untitled1
 untitled1_OBJECTS = \
-"CMakeFiles/untitled1.dir/main.c.obj" \
-"CMakeFiles/untitled1.dir/list.c.obj" \
-"CMakeFiles/untitled1.dir/stud.c.obj"
+"CMakeFiles/untitled1.dir/practice13/main.c.obj" \
+"CMakeFiles/untitled1.dir/practice13/list.c.obj" \
+"CMakeFiles/untitled1.dir/practice13/stud.c.obj"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
 
-untitled1.exe: CMakeFiles/untitled1.dir/main.c.obj
-untitled1.exe: CMakeFiles/untitled1.dir/list.c.obj
-untitled1.exe: CMakeFiles/untitled1.dir/stud.c.obj
+untitled1.exe: CMakeFiles/untitled1.dir/practice13/main.c.obj
+untitled1.exe: CMakeFiles/untitled1.dir/practice13/list.c.obj
+untitled1.exe: CMakeFiles/untitled1.dir/practice13/stud.c.obj
 untitled1.exe: CMakeFiles/untitled1.dir/build.make
 untitled1.exe: CMakeFiles/untitled1.dir/linkLibs.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/objects1.rsp

@@ -9,11 +9,8 @@ int main()
 
     int countStudent;
 
-<<<<<<< HEAD
-    printf("Введите колипацушпаущчествdfbhо студентов: ");
-=======
-    printf("Введите количljdnflkaklaество студентов: ");
->>>>>>> d690fa770c09ef0b421b38801b4d77eaa424e3cb
+    printf("Введите количество студентов: ");
+
     scanf("%d", &countStudent);
 
     countStud
