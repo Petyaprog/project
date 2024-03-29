@@ -4,5 +4,4 @@ project(untitled1)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(untitled1
-        "main.c" "list.c" "list.h" "stud.h" "list.c"
-        stud.c)
+        "main.c" "list.c" "list.h" "stud.h" "stud.c")
