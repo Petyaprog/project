@@ -7,7 +7,7 @@ void *student_print(void *student)
     printf("%s ", stud->name);
     printf("%s ", stud->surnames);
     printf("%c ", stud->gender);
-    printf("%d ", stud->age);
+    printf("%d knvpswvnlsnv", stud->age);
     printf("%s ", stud->groups);
     printf("%d ", stud->mark_math);
     printf("%d ", stud->mark_chem);
