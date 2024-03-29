@@ -9,7 +9,7 @@ int main()
 
     int countStudent;
 
-    printf("Введите количествdfbhо студентов: ");
+    printf("Введите колипацушпаущчествdfbhо студентов: ");
     scanf("%d", &countStudent);
 
     countStud
