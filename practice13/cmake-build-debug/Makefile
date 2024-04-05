@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\tsiga\CLionProjects\project\practice13
+CMAKE_SOURCE_DIR = C:\Users\tsiga\OneDrive\Документы\project\practice13
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\tsiga\CLionProjects\project\practice13\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\tsiga\OneDrive\Документы\project\practice13\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tsiga\CLionProjects\project\practice13\cmake-build-debug\CMakeFiles C:\Users\tsiga\CLionProjects\project\practice13\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tsiga\OneDrive\Документы\project\practice13\cmake-build-debug\CMakeFiles C:\Users\tsiga\OneDrive\Документы\project\practice13\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tsiga\CLionProjects\project\practice13\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tsiga\OneDrive\Документы\project\practice13\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ practice13: cmake_check_build_system
 practice13/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice13.dir\build.make CMakeFiles/practice13.dir/build
 .PHONY : practice13/fast
+
+C_/Users/tsiga/OneDrive/Документы/project/practice14/main.obj: C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.obj
+.PHONY : C_/Users/tsiga/OneDrive/Документы/project/practice14/main.obj
+
+# target to build an object file
+C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice13.dir\build.make CMakeFiles/practice13.dir/C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.obj
+.PHONY : C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.obj
+
+C_/Users/tsiga/OneDrive/Документы/project/practice14/main.i: C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.i
+.PHONY : C_/Users/tsiga/OneDrive/Документы/project/practice14/main.i
+
+# target to preprocess a source file
+C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice13.dir\build.make CMakeFiles/practice13.dir/C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.i
+.PHONY : C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.i
+
+C_/Users/tsiga/OneDrive/Документы/project/practice14/main.s: C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.s
+.PHONY : C_/Users/tsiga/OneDrive/Документы/project/practice14/main.s
+
+# target to generate assembly for a file
+C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice13.dir\build.make CMakeFiles/practice13.dir/C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.s
+.PHONY : C_/Users/tsiga/OneDrive/Документы/project/practice14/main.c.s
 
 list.obj: list.c.obj
 .PHONY : list.obj
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... practice13
+	@echo ... C_/Users/tsiga/OneDrive/Документы/project/practice14/main.obj
+	@echo ... C_/Users/tsiga/OneDrive/Документы/project/practice14/main.i
+	@echo ... C_/Users/tsiga/OneDrive/Документы/project/practice14/main.s
 	@echo ... list.obj
 	@echo ... list.i
 	@echo ... list.s

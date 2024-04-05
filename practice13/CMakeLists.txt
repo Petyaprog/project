@@ -8,4 +8,5 @@ add_executable(practice13
         "main.c"
         "list.h"
         "list.c"
-        "stud.c")
+        "stud.c"
+        ../practice13/main.c)
