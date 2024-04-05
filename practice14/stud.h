@@ -70,7 +70,6 @@ typedef struct Student
     int mark_math;
     int mark_chem;
     int mark_physic;
-    void *(*print)(void *);
 } STUDENT;
 
 typedef struct Node
@@ -79,6 +78,6 @@ typedef struct Node
     struct Node *next;
 } Node;
 
-void *student_print(void *student);
 void *student_init(void *stud);
+
 #endif // !STUD_H
