@@ -64,7 +64,7 @@ typedef struct Student
 {
     char name[20];
     char surnames[20];
-    char gender[1];
+    int gender;
     int age;
     char groups[20];
     int mark_math;

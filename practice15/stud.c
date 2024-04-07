@@ -24,7 +24,7 @@ void *studSaveToFile(void *student)
     }
 
     return stud;
-}
+};
 
 void *student_init(void *stud)
 {
@@ -32,7 +32,7 @@ void *student_init(void *stud)
 
     strcpy(student->name, names[rand() % 15]);
     strcpy(student->surnames, surnames[rand() % 15]);
-    strcpy(student->gender, "M");
+    student->gender = 'M';
     student->age = rand() % 5 + 15;
     strcpy(student->groups, groups[rand() % 5]);
     student->mark_math = rand() % 5 + 1;

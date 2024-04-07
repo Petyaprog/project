@@ -25,5 +25,8 @@ int main()
 
     printTopMathematicsStudents(list);
 
+    STUDENT *student = malloc(sizeof(STUDENT));
+    studReadFromFile(student);
+
     return 0;
 }
