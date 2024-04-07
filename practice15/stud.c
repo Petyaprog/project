@@ -1,4 +1,3 @@
-
 #include  "stud.h"
 
 void *studSaveToFile(void *student)
