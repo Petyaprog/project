@@ -12,13 +12,11 @@ int main()
     printf("Введите количество студентов: ");
 
     scanf("%d", &countStudent);
-    STUDENT *student;
+
     countStud
     {
         STUDENT *stud = malloc(sizeof(STUDENT));
-//        STUDENT *student = malloc(sizeof(STUDENT));
         student_init(stud);
-//        student_print(student);
         args *arg = malloc(sizeof(args));
         arg->stud = stud;
         arg->list = list;
@@ -26,6 +24,6 @@ int main()
     }
 
     printTopMathematicsStudents(list);
-    studReadFromFile(student);
+
     return 0;
 }
