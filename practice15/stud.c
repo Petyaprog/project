@@ -4,7 +4,6 @@
 void *studSaveToFile(void *student)
 {
     STUDENT *stud = (STUDENT *)student;
-    int i = 0;
     FILE *file = fopen("student.bin", "ab");
 
     if (file != NULL)
