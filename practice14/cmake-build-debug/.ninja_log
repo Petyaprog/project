@@ -1,9 +1,5 @@
 # ninja log v5
-3	116	7340257649601983	CMakeFiles/practice14.dir/main.c.obj	2b34d51adb1e266e
-78	528	7340268029946317	CMakeFiles/practice14.dir/list.c.obj	dfcc9bcd1a2edda4
-528	937	7340268034086722	practice14.exe	ad8886dfa173256a
-5	520	7340268029868211	CMakeFiles/practice14.dir/stud.c.obj	e249269f8c1b4a27
-25	459	7340454467316862	CMakeFiles/practice14.dir/stud.c.obj	e249269f8c1b4a27
-13	465	7340454467359625	CMakeFiles/practice14.dir/list.c.obj	dfcc9bcd1a2edda4
 4	466	7340454467374103	CMakeFiles/practice14.dir/main.c.obj	2b34d51adb1e266e
-467	825	7340454471242564	practice14.exe	ad8886dfa173256a
+2	102	7340459679710565	CMakeFiles/practice14.dir/list.c.obj	dfcc9bcd1a2edda4
+103	225	7340459680838362	practice14.exe	ad8886dfa173256a
+25	459	7340454467316862	CMakeFiles/practice14.dir/stud.c.obj	e249269f8c1b4a27

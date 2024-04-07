@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$APPLICATION_HOME_DIR$/bin/mingw/x86_64-w64-mingw32/include/dciddi.h" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/practice14/cmake-build-debug/my_file.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practice15/cmake-build-debug/student.txt" charset="US-ASCII" />
   </component>
 </project>
