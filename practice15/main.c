@@ -25,8 +25,15 @@ int main()
 
     printTopMathematicsStudents(list);
 
-    STUDENT *student = malloc(sizeof(STUDENT));
-    studReadFromFile(student);
+//    LinkedList *list = linkedlist_init();
+    args *arg = malloc(sizeof(args));
+
+    STUDENT *stud = malloc(sizeof(STUDENT));
+    studReadFromFile(stud);
+//    linkedlist_insert_sorted(arg);
+
+    printStudents(list);
+
 
     return 0;
 }
