@@ -1,0 +1,3 @@
+C:/Users/tsiga/OneDrive/Документы/project/practice16/cmake-build-debug/CMakeFiles/practice16.dir
+C:/Users/tsiga/OneDrive/Документы/project/practice16/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tsiga/OneDrive/Документы/project/practice16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
