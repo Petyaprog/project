@@ -4,7 +4,7 @@
 int main() {
 
     char str[1000];
-    printf("Введите строку: ");
+    printf("Введите сстроку: ");
     fgets(str, sizeof(str), stdin);
     for (int i = 0; str[i] != '\0'; i++) {
         str[i] = toupper(str[i]);
