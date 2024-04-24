@@ -15,3 +15,36 @@ void *student_init(void *stud)
 
     return NULL;
 }
+
+void *student_load (Node *current)
+{
+    FILE *file = fopen("students.txt", "a");
+
+    fprintf(file,"%s ", current->value->name);
+    fprintf(file,"%s ", current->value->surnames);
+    fprintf(file,"%c ", current->value->gender);
+    fprintf(file,"%d ", current->value->age);
+    fprintf(file,"%s ", current->value->groups);
+    fprintf(file,"%d ", current->value->mark_math);
+    fprintf(file,"%d ", current->value->mark_chem);
+    fprintf(file,"%d ", current->value->mark_physic);
+    fprintf(file,"\n");
+
+    return current;
+}
+
+void *studReadFromFile(FILE *file)
+{
+    STUDENT *stud = malloc(sizeof(STUDENT));
+
+    fscanf(file,"%s ", stud->name);
+    fscanf(file,"%s ", stud->surnames);
+    fscanf(file,"%c ", &stud->gender);
+    fscanf(file,"%d ", &stud->age);
+    fscanf(file,"%s ", stud->groups);
+    fscanf(file,"%d ", &stud->mark_math);
+    fscanf(file,"%d ", &stud->mark_chem);
+    fscanf(file,"%d ", &stud->mark_physic);
+
+    return stud;
+}

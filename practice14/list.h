@@ -17,6 +17,7 @@ typedef struct args
 
 void *linkedlist_init();
 void *linkedlist_insert_sorted(void *args);
-void* saveStudentsToFile(void *list);
+void* list_load(void *list);
+void* student_read(void *list);
 
 #endif // LIST_H

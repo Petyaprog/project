@@ -79,5 +79,7 @@ typedef struct Node
 } Node;
 
 void *student_init(void *stud);
+void *studReadFromFile(FILE *file);
+void *student_load (Node *current);
 
 #endif // !STUD_H

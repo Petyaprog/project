@@ -13,15 +13,17 @@ int main()
     scanf("%d", &countStudent);
 
     countStud
-        {
+    {
             STUDENT *stud = malloc(sizeof(STUDENT));
             student_init(stud);
             args *arg = malloc(sizeof(args));
             arg->stud = stud;
             arg->list = list;
             linkedlist_insert_sorted(arg);
-        }
-    saveStudentsToFile(list);
+    }
+
+    list_load(list);
+    student_read(list);
 
     return 0;
 }

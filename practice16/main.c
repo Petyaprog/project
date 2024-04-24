@@ -17,13 +17,16 @@ int main()
     {
         STUDENT *stud = malloc(sizeof(STUDENT));
         if (!stud) {
-            fprintf(stderr, "Ошибка в выделении памяти: %s\n", strerror(errno));
+            perror("Error");
         }
+
         student_init(stud);
+
         args *arg = malloc(sizeof(args));
         if (!arg) {
-            fprintf(stderr, "Ошибка в выделении памяти: %s\n", strerror(errno));
+            perror("Error");
         }
+
         arg->stud = stud;
         arg->list = list;
         linkedlist_insert_sorted(arg);

@@ -62,26 +62,3 @@ void *printTopMathematicsStudents(void *list)
     }
     fclose(file);
 }
-
-//void* printStudents(void *list)
-//{
-//    LinkedList *llist = (LinkedList *)list;
-//    Node *current = llist->head;
-//    int i  = 0;
-//    while ((current != NULL), (i < 10))
-//    {
-//        STUDENT *stud = (STUDENT *)current->value;
-//        printf("%s ", stud->name);
-//        printf("%s ", stud->surnames);
-//        printf("%c ", stud->gender);
-//        printf("%d ", stud->age);
-//        printf("%s ", stud->groups);
-//        printf("%d ", stud->mark_math);
-//        printf("%d ", stud->mark_chem);
-//        printf("%d ", stud->mark_physic);
-//        printf("\n");
-//
-//        current = current->next;
-//        i++;
-//    }
-//}

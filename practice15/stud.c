@@ -7,11 +7,11 @@ void *studSaveToFile(void *student)
 
     if (file != NULL)
     {
-            fwrite(&stud->name, sizeof(stud->name), 1, file);
-            fwrite(&stud->surnames, sizeof(stud->surnames), 1, file);
+            fwrite(stud->name, sizeof(stud->name), 1, file);
+            fwrite(stud->surnames, sizeof(stud->surnames), 1, file);
             fwrite(&stud->gender, sizeof(stud->gender), 1, file);
             fwrite(&stud->age, sizeof(stud->age), 1, file);
-            fwrite(&stud->groups, sizeof(stud->groups), 1, file);
+            fwrite(stud->groups, sizeof(stud->groups), 1, file);
             fwrite(&stud->mark_math, sizeof(stud->mark_math), 1, file);
             fwrite(&stud->mark_chem, sizeof(stud->mark_chem), 1, file);
             fwrite(&stud->mark_physic, sizeof(stud->mark_physic), 1, file);
@@ -51,11 +51,11 @@ void *studReadFromFile(void *student)
 
     if (file != NULL)
     {
-        fread(&stud->name, sizeof(stud->name), 1, file);
-        fread(&stud->surnames, sizeof(stud->surnames), 1, file);
+        fread(stud->name, sizeof(stud->name), 1, file);
+        fread(stud->surnames, sizeof(stud->surnames), 1, file);
         fread(&stud->gender, sizeof(stud->gender), 1, file);
         fread(&stud->age, sizeof(stud->age), 1, file);
-        fread(&stud->groups, sizeof(stud->groups), 1, file);
+        fread(stud->groups, sizeof(stud->groups), 1, file);
         fread(&stud->mark_math, sizeof(stud->mark_math), 1, file);
         fread(&stud->mark_chem, sizeof(stud->mark_chem), 1, file);
         fread(&stud->mark_physic, sizeof(stud->mark_physic), 1, file);

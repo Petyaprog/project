@@ -1,16 +1,14 @@
 #include "list.h"
 
-#define ITERATE_LIMIT(condition, limit) while ((condition), (i < limit))
-
 void *linkedlist_init()
 {
     LinkedList *list = malloc(sizeof(struct LinkedList));
     list->head = NULL;
-    list->tail = NULL; 
+    list->tail = NULL;
     return list;
 }
 
-void *linkedlist_insert_sorted(void *args)
+void* linkedlist_insert_sorted(void *args)
 {
     struct args *arg = (struct args *)args;
 
@@ -41,34 +39,44 @@ void *linkedlist_insert_sorted(void *args)
         newNode->next = current->next;
         current->next = newNode;
     }
+    return NULL;
 }
 
-void* saveStudentsToFile(void *list)
+void* list_load(void *list)
 {
     LinkedList *llist = (LinkedList *)list;
 
     FILE *file = fopen("students.txt", "w");
-    if (file == NULL) {
-        printf("Ошибка при открытии файла для записи\n");
-        exit(-1);
-    }
 
     Node *current = llist->head;
 
     int i = 0;
-    ITERATE_LIMIT(current != NULL , 10) {
-        fprintf(file, "%s %s %c %d %s %d %d %d\n",
-                current->value->name,
-                current->value->surnames,
-                current->value->gender,
-                current->value->age,
-                current->value->groups,
-                current->value->mark_math,
-                current->value->mark_chem,
-                current->value->mark_physic
-        );
+    while ((current != NULL), (i < 10))
+     {
+        student_load (current);
         current = current->next;
         i++;
     }
     fclose(file);
+    return NULL;
+}
+
+void* student_read(void *list)
+{
+    LinkedList *llist = (LinkedList *)list;
+
+    FILE *file = fopen("students.txt", "r");
+
+    Node *current = llist->head;
+
+    int i = 0;
+    while ((current != NULL), (i < 10))
+    {
+        studReadFromFile(file);
+        current = current->next;
+        i++;
+    }
+
+    fclose(file);
+    return NULL;
 }

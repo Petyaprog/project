@@ -44,8 +44,6 @@ void *studReadFromFile(void *student)
 
     if (file == NULL)
     {
-        errno_t my_error = errno;
-        printf("Error code: %d\n", my_error);
         perror("Error");
 
     } else {
