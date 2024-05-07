@@ -1,16 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <wchar.h>
+#include <wctype.h>
 
 int main() {
 
-    char str[1000];
-    printf("Введите сстроку: ");
-    fgets(str, sizeof(str), stdin);
-    for (int i = 0; str[i] != '\0'; i++) {
-        str[i] = toupper(str[i]);
+    wchar_t str[1000];
+    wprintf(L"enter the string: ");
+    fgetws(str, sizeof(str)/sizeof(str[0]), stdin);
+    for (int i = 0; str[i] != L'\0'; i++) {
+        str[i] = towupper(str[i]);
     }
 
-    printf("Строка в прописных буквах: %s", str);
+    wprintf(L"Строка в прописных буквах: %ls", str);
 
     return 0;
 }
